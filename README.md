@@ -22,7 +22,7 @@ The final CNN includes:
 ## 🔧 Key Improvements
 
 - Unified all input images to grayscale to eliminate inconsistencies.
-- Instead of using standard `[255 255]` input dimensions, dynamically resized input to match actual image dimensions.
+- Instead of using standard `[224 224]` input dimensions, dynamically resized input to match actual image dimensions.
 - This change alone boosted accuracy from ~70% to **91–92%**.
 - Built a custom UI in MATLAB for dataset selection, training, and prediction.
 
